@@ -1,4 +1,27 @@
 ---
 label: Post
 hide_body: false
-fields: []
+fields:
+- name: createdAt
+  type: datetime
+  label: Created At
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  hidden: true
+  default: now
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
