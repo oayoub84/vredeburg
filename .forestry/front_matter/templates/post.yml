@@ -25,3 +25,6 @@ fields:
       file: 
       path: 
   label: Category
+  showOnly:
+    field: category
+    value: categories/category-1.md
