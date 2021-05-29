@@ -7,3 +7,5 @@ fields:
   config:
     required: true
   label: Name
+pages:
+- categories/category-1.md

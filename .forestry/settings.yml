@@ -16,7 +16,7 @@ sections:
   label: Categories
   create: documents
   match: "**/*.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - category
 upload_dir: uploads
