@@ -20,8 +20,8 @@ fields:
     required: false
     options: []
     source:
-      type: simple
-      section: 
+      type: pages
+      section: categories
       file: 
       path: 
   label: Category
